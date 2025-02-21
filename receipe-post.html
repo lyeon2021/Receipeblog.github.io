@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Delicious - Food Blog Template | Receipe Post</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico" />
+
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Preloader -->
+    <div id="preloader">
+      <i class="circle-preloader"></i>
+      <img src="img/core-img/salad.png" alt="" />
+    </div>
+
+    <!-- Search Wrapper -->
+    <div class="search-wrapper">
+      <!-- Close Btn -->
+      <div class="close-btn">
+        <i class="fa fa-times" aria-hidden="true"></i>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <form action="#" method="post">
+              <input
+                type="search"
+                name="search"
+                placeholder="Type any keywords..."
+              />
+              <button type="submit">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+      <!-- Top Header Area -->
+      <div class="top-header-area">
+        <div class="container h-100">
+          <div class="row h-100 align-items-center justify-content-between">
+            <!-- Breaking News -->
+            <div class="col-12 col-sm-6">
+              <div class="breaking-news">
+                <div id="breakingNewsTicker" class="ticker">
+                  <ul>
+                    <li><a href="#">Welcome to World kitchen.</a></li>
+                    <li><a href="#">Say Hello to Delicious Recipes!</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Top Social Info -->
+            <div class="col-12 col-sm-6">
+              <div class="top-social-info text-right">
+                <a href="#"
+                  ><i class="fa fa-pinterest" aria-hidden="true"></i
+                ></a>
+                <a href="#"
+                  ><i class="fa fa-facebook" aria-hidden="true"></i
+                ></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#"
+                  ><i class="fa fa-linkedin" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navbar Area -->
+      <div class="delicious-main-menu">
+        <div class="classy-nav-container breakpoint-off">
+          <div class="container">
+            <!-- Menu -->
+            <nav
+              class="classy-navbar justify-content-between"
+              id="deliciousNav"
+            >
+              <!-- Logo -->
+              <h1 class="h1">World Kitchen</h1>
+              <!-- <a class="nav-brand" href="index.html"
+                ><img src="img/core-img/logo.png" alt=""
+              /></a> -->
+
+              <!-- Navbar Toggler -->
+              <div class="classy-navbar-toggler">
+                <span class="navbarToggler"
+                  ><span></span><span></span><span></span
+                ></span>
+              </div>
+
+              <!-- Menu -->
+              <div class="classy-menu">
+                <!-- close btn -->
+                <div class="classycloseIcon">
+                  <div class="cross-wrap">
+                    <span class="top"></span><span class="bottom"></span>
+                  </div>
+                </div>
+
+                <!-- Nav Start -->
+                <div class="classynav">
+                  <ul>
+                    <li ><a href="index.html">Home</a></li>
+                    <li class="active"><a href="receipe-post.html">Recipes</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
+
+                <!-- Nav End -->
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- <div class="receipe-post-area section-padding-80">
+      <!-- Receipe Post Search -->
+      <div class="receipe-post-search mb-80 hidden" id="receipe-post-search">
+        <div class="container">
+          <form action="/receipe-post.html" method="get" id="recipe-search">
+            <div class="row">
+              <div class="col-12 col-lg-3" id='category-container'>
+                <select name="select1" id="select1">
+                  <option value="" disabled selected>Select a Category</option>
+                  <!-- <option value="1">All Receipies Categories</option>
+                  <option value="1">All Receipies Categories 2</option>
+                  <option value="1">All Receipies Categories 3</option>
+                  <option value="1">All Receipies Categories 4</option>
+                  <option value="1">All Receipies Categories 5</option> -->
+                </select>
+              </div>
+              <!-- <div class="col-12 col-lg-3">
+                <select name="select1" id="select2">
+                  <option value="1">All Receipies Categories</option>
+                  <option value="1">All Receipies Categories 2</option>
+                  <option value="1">All Receipies Categories 3</option>
+                  <option value="1">All Receipies Categories 4</option>
+                  <option value="1">All Receipies Categories 5</option>
+                </select>
+              </div>
+              <div class="col-12 col-lg-3">
+                <input
+                  type="search"
+                  name="search"
+                  placeholder="Search Receipies"
+                />
+              </div> -->
+              <div class="col-12 col-lg-3 text-right">
+                <button type="submit" class="btn delicious-btn" id='category-selection'>Search</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div> 
+
+          <!-- ##### Receipe List Area Start ##### -->
+    <section class="receipe-list-area" id="receipe-list-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-heading" id="recipe-list-heading">
+            </div>
+          </div>
+        </div>
+
+        <div class="row" id="receipe-list-row">
+          
+        </div>
+      </div>
+    </section>
+    <!-- ##### Receipe List Area End ##### -->
+
+      <!-- Receipe Slider -->
+      <div class="container">
+        <div class="row">
+          <div class="col-12" id="recipe-video-container">
+            <!-- <div class="receipe-slider">
+            </div> -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Receipe Content Area -->
+      <div class="receipe-content-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-8">
+              <div class="receipe-headline my-5" id="receipe-headline">
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+              <div class="receipe-img" id="receipe-img">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-lg-8" id="preperation-steps">
+              <!-- Single Preparation Step -->
+              <!-- <div class="single-preparation-step d-flex">
+                <h4>01.</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac
+                  pellentesque tortor. Aenean congue sed metus in iaculis. Cras
+                  a tortor enim. Phasellus posuere vestibulum ipsum, eget
+                  lobortis purus. Orci varius natoque penatibus et magnis dis
+                  parturient montes, nascetur ridiculus mus.
+                </p>
+              </div> -->
+            </div>
+
+            <!-- Ingredients -->
+            <div class="col-12 col-lg-4">
+              <div class="ingredients" id="ingredients">
+                <h4>Ingredients</h4>
+
+                <!-- Custom Checkbox -->
+                <!-- <div class="custom-control custom-checkbox">
+                  <input
+                    type="checkbox"
+                    class="custom-control-input"
+                    id="customCheck1"
+                  />
+                  <label class="custom-control-label" for="customCheck1"
+                    >4 Tbsp (57 gr) butter</label
+                  >
+                </div> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+              <div class="section-heading text-left">
+                <h3>Leave a comment</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+              <div class="contact-form-area">
+                <form action="#" method="post">
+                  <div class="row">
+                    <div class="col-12 col-lg-6">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="name"
+                        placeholder="Name"
+                        required
+                      />
+                    </div>
+                    <div class="col-12 col-lg-6">
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        placeholder="E-mail"
+                        required
+                      />
+                    </div>
+                    <div class="col-12">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="subject"
+                        placeholder="Subject"
+                        required
+                      />
+                    </div>
+                    <div class="col-12">
+                      <textarea
+                        name="message"
+                        class="form-control"
+                        id="message"
+                        cols="30"
+                        rows="10"
+                        placeholder="Message"
+                        minlength="20"
+                      ></textarea>
+                    </div>
+                    <div class="col-12">
+                      <button class="btn delicious-btn mt-30" type="submit">
+                        Post Comments
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area">
+      <div class="container h-100">
+        <div class="row h-100">
+          <div
+            class="col-12 h-100 d-flex flex-wrap align-items-center justify-content-between"
+          >
+            <!-- Footer Social Info -->
+            <div class="footer-social-info text-right">
+              <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+            <!-- Footer Logo -->
+            <div class="footer-logo">
+              <a href="index.html"><h1 class="h1">World Kitchen</h1></a>
+            </div>
+            <!-- Copywrite -->
+            <p>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              Copyright &copy;
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              All rights reserved | This Coutesy of 
+              <i class="fa fa-heart-o" aria-hidden="true"></i> 
+              <a href="https://colorlib.com" target="_blank">Lyeon Ndungu, Eugine Bikala & oliver wekesa</a>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ##### Footer Area Start ##### -->
+
+    <!-- ##### All Javascript Files ##### -->
+    <script src="js/custom/recipe-post.js"></script>
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+  </body>
+</html>
